@@ -1,0 +1,7 @@
+﻿  CashServer.cpp
+  Source.cpp
+  Generating Code...
+CashServer.obj : error LNK2019: unresolved external symbol _compress referenced in function "int __cdecl Pack(struct Cash *)" (?Pack@@YAHPAUCash@@@Z)
+CashServer.obj : error LNK2019: unresolved external symbol _compressBound referenced in function "int __cdecl Pack(struct Cash *)" (?Pack@@YAHPAUCash@@@Z)
+P:\CashServer\packages\zlib-vc140-static-64.1.2.11\lib\native\libs\x64\static\Debug\zlibstatic.lib : warning LNK4272: library machine type 'x64' conflicts with target machine type 'x86'
+P:\CashServer\Debug\CashServer.exe : fatal error LNK1120: 2 unresolved externals
